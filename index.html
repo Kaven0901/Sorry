@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Professional Website</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(5px);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+    .hero-img {
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 651px; /* your image width */
+      animation: float 3s ease-in-out infinite;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hey Sonnyymaa 😍</h1>
+    <p>I'm Really Sorry Chello 🥺</p>
+    <button class="btn" onclick="alert('I’m really sorry ma. I know I messed up. Sometimes I react without thinking and I realize that’s not fair to you.You mean a lot to me and I promise I’m trying to be better especially for us. Please forgive me Babyy 🫂🌹')">ITHEE TADDUUU !!!</button>
+    <img src="images/my-image.png" alt="My graphic" class="hero-img" />
+  </div>
+</body>
+</html>
